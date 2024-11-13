@@ -89,3 +89,70 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.order-button {
+    display: inline-block;
+    background: #ff6347;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 15px 0;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none; /* Remove underline */
+    transition: background 0.3s, transform 0.3s;
+}
+
+.order-button:hover {
+    background: #e5533d;
+    transform: scale(1.05);
+}
+
+
+.order-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+    background: #ff6347;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1em;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: #e5533d;
+    transform: scale(1.05);
+}
